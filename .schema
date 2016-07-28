@@ -1,0 +1,45 @@
+sqlite>
+
+CREATE TABLE person (
+    id INTEGER PRIMARY KEY,
+    first_name TEXT,
+    last_name TEXT,
+    age INTEGER
+);
+SQL error: table person already exists
+CREATE TABLE person_pet (
+    person_id INTEGER,
+    pet_id INTEGER
+);
+SQL error: table person_pet already exists
+CREATE TABLE pet (
+    id INTEGER PRIMARY KEY,
+    name TEXT,
+    breed TEXT,
+    age INTEGER,
+    dead INTEGER
+);
+SQL error: table pet already exists
+sqlite>
+
+CREATE TABLE person (
+    id INTEGER PRIMARY KEY,
+    first_name TEXT,
+    last_name TEXT,
+    age INTEGER
+);
+SQL error: table person already exists
+CREATE TABLE person_pet (
+    person_id INTEGER,
+    pet_id INTEGER
+);
+SQL error: table person_pet already exists
+CREATE TABLE pet (
+    id INTEGER PRIMARY KEY,
+    name TEXT,
+    breed TEXT,
+    age INTEGER,
+    dead INTEGER
+);
+SQL error: table pet already exists
+Incomplete SQL: ls
